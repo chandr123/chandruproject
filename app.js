@@ -5,7 +5,6 @@ app.get('/', function(req, res){
    res.send("Hello world! test");
 });
 
-app.listen(3000, function(){
-	
-	console.log("running port on 3000")
+http.listen(process.env.PORT || 3000, function(){
+  console.log('listening on', http.address().port);
 });
