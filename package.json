@@ -1,14 +1,22 @@
 {
-  "name": "appone",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+"name": "appone",
+"version": "1.0.0",
+"description": "node app ",
+"main": "app.js",
+"scripts": {
+"start": "node app.js"
+},
+"repository": {
+"type": "git",
+"url": ""
+},
+"author": "",
+"license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
   }
+"bugs": {
+"url": ""
+},
+"homepage": ""
 }
